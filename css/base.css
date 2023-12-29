@@ -1,0 +1,59 @@
+@media (max-width: 991px) {
+    .card {
+        width: calc(25% - 22px);
+    }
+    .product-grid {
+        margin: 0 auto;
+    }
+    #search-wrapper {
+        display: none;
+    }
+    #carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(33% - 22px);
+    }
+    .product-grid {
+        margin: 0 auto;
+    }
+    .menu {
+        display: none;
+    }
+    #humburg-icon {
+        display: block;
+    }
+    #user_avatar {
+        display: none;
+    }
+    #topbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: calc(50% - 22px);
+    }
+    .product-grid {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 100%
+    }
+    .product-grid {
+        margin: 0 auto;
+    }
+}
